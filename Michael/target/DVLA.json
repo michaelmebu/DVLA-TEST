@@ -1,0 +1,217 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Load the dvla page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22644857217,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have navigated to the dvla vehicle search page",
+            "match": {
+              "location": "DvlaPageDev.i_have_navigated_to_the_dvla_vehicle_search_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Search for car registration from \"csv\"",
+        "description": "",
+        "id": "dvla-car-registration-search;search-for-car-registration-from-\"\u003cmime-type\u003e\";;2",
+        "after": [
+          {
+            "result": {
+              "duration": 819175813,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DvlaPageDev.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6386160486,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I start the vehicle search process",
+            "match": {
+              "location": "DvlaPageDev.i_start_the_vehicle_search_process()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45266094,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I find existing \"csv\" files",
+            "match": {
+              "arguments": [
+                {
+                  "val": "csv",
+                  "offset": 17
+                }
+              ],
+              "location": "DvlaPageDev.i_find_existing_files(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20275749322,
+              "error_message": "java.lang.AssertionError: The following asserts failed:\nVehicle ED18TRE was not found expected [Is this the vehicle you are looking for?] but found [Vehicle details could not be found], Vehicle EK18FKYdescription does not match expected [\"Mercedes M Class\"] but found [FORD], Vehicle EK18FKYcolour does not match expected [\"Blue\"] but found [GREY], Vehicle HT18GTY was not found expected [Is this the vehicle you are looking for?] but found [Vehicle details could not be found], Vehicle FG18HGS was not found expected [Is this the vehicle you are looking for?] but found [Vehicle details could not be found], Vehicle TM18DFG was not found expected [Is this the vehicle you are looking for?] but found [Vehicle details could not be found]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)\r\n\tat pageObject.DvlaPageObject.validateCSVContent(DvlaPageObject.java:279)\r\n\tat pageObject.DvlaPageObject.validateCarRegs(DvlaPageObject.java:89)\r\n\tat pageObject.DvlaPageObject.getCarDetails(DvlaPageObject.java:74)\r\n\tat pageDefinition.DvlaPageDev.the_car_registration_from_the_files_should_be_found(DvlaPageDev.java:45)\r\n\tat ✽.Then The car registration from the \"csv\" files should be found(dvlaTest.feature:10)\r\n",
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "The car registration from the \"csv\" files should be found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "csv",
+                  "offset": 31
+                }
+              ],
+              "location": "DvlaPageDev.the_car_registration_from_the_files_should_be_found(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@CheckCarReg"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Load the dvla page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4952061960,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have navigated to the dvla vehicle search page",
+            "match": {
+              "location": "DvlaPageDev.i_have_navigated_to_the_dvla_vehicle_search_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Search for car registration from \"xlsx\"",
+        "description": "",
+        "id": "dvla-car-registration-search;search-for-car-registration-from-\"\u003cmime-type\u003e\";;3",
+        "after": [
+          {
+            "result": {
+              "duration": 793920095,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DvlaPageDev.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14356334344,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I start the vehicle search process",
+            "match": {
+              "location": "DvlaPageDev.i_start_the_vehicle_search_process()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13829872,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I find existing \"xlsx\" files",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xlsx",
+                  "offset": 17
+                }
+              ],
+              "location": "DvlaPageDev.i_find_existing_files(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7048326695,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The car registration from the \"xlsx\" files should be found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xlsx",
+                  "offset": 31
+                }
+              ],
+              "location": "DvlaPageDev.the_car_registration_from_the_files_should_be_found(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@CheckCarReg"
+          }
+        ]
+      }
+    ],
+    "name": "Dvla car registration search",
+    "description": "",
+    "id": "dvla-car-registration-search",
+    "keyword": "Feature",
+    "uri": "dvlaTest.feature"
+  }
+]

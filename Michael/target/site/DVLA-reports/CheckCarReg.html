@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cucumber-JVM Html Reports - Tag: @CheckCarReg</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+
+<script type="text/javascript" src="highcharts.js"></script>
+<script type="text/javascript" src="highcharts-3d.js"></script>
+
+<link rel="stylesheet" href="bootstrap.min.css" type="text/css"/>
+
+<link rel="stylesheet" href="reporting.css" type="text/css"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#tablesorter").tablesorter();
+});
+</script>
+
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-jvm Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation" ><a href="step-overview.html">Steps</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>cucumber-jvm-example</td>
+                          <td>42</td>
+                        <td>25 May 2018, 11:20</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="title">
+  <h2>Tag Report</h2>
+  </div>
+
+
+<div class="container-fluid" id="report-summary">
+  <table class="stats-table">
+    <thead>
+  <tr class="header">
+        <th></th>
+    <th id="stats-header-scenarios" colspan="3">Scenarios</th>
+    <th id="stats-header-steps" colspan="7">Steps</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th id="stats-header-key">Tag</th>
+        <th id="stats-header-scenarios-total">Total</th>
+    <th id="stats-header-scenarios-passed">Passed</th>
+    <th id="stats-header-scenarios-failed">Failed</th>
+    <th id="stats-header-steps-total">Total</th>
+    <th id="stats-header-steps-passed"    class="passed">Passed</th>
+    <th id="stats-header-steps-failed"    class="failed">Failed</th>
+    <th id="stats-header-steps-skipped"   class="skipped">Skipped</th>
+    <th id="stats-header-steps-pending"   class="pending">Pending</th>
+    <th id="stats-header-steps-undefined" class="undefined">Undefined</th>
+    <th id="stats-header-steps-missing"   class="missing">Missing</th>
+    <th id="stats-header-duration">Duration</th>
+    <th id="stats-header-status">Status</th>
+  </tr>
+</thead>
+    <tr>
+      <td class="tagname"><a href="CheckCarReg.html">@CheckCarReg</a></td>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>6</td>
+      <td>5</td>
+      <td   class="failed"    >1</td>
+      <td >0</td>
+      <td >0</td>
+      <td >0</td>
+      <td >0</td>
+      <td class="duration-format">48s 125ms</td>
+      <td class="failed">Failed</td>
+    </tr>
+  </table>
+</div>
+
+<div class="container-fluid" id="report-details">
+      <a href="dvlaTest-feature.html">View Feature File</a>
+    <div class="feature-tags"><a href="CheckCarReg.html">@CheckCarReg</a></div>
+    
+    <div class="failed"><span class="element-keyword">Scenario Outline: </span><span class="element-name">Search for car registration from &quot;csv&quot;</span></div>
+          <div class="passed"><span class="step-keyword">Given  </span><span class="step-name">I start the vehicle search process</span><span class="step-duration">06s 386ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="passed"><span class="step-keyword">When  </span><span class="step-name">I find existing &quot;csv&quot; files</span><span class="step-duration">045ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="failed"><span class="step-keyword">Then  </span><span class="step-name">The car registration from the &quot;csv&quot; files should be found</span><span class="step-duration">20s 275ms</span><div class="output_message"><input class="output_collapse" id="output_525558913" type="checkbox"><label for="output_525558913">java.lang.AssertionError: The following asserts failed:</label><div>Vehicle ED18TRE was not found expected [Is this the vehicle you are looking for?] but found [Vehicle details could not be found], Vehicle EK18FKYdescription does not match expected ["Mercedes M Class"] but found [FORD], Vehicle EK18FKYcolour does not match expected ["Blue"] but found [GREY], Vehicle HT18GTY was not found expected [Is this the vehicle you are looking for?] but found [Vehicle details could not be found], Vehicle FG18HGS was not found expected [Is this the vehicle you are looking for?] but found [Vehicle details could not be found], Vehicle TM18DFG was not found expected [Is this the vehicle you are looking for?] but found [Vehicle details could not be found]<br/>	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)<br/>	at pageObject.DvlaPageObject.validateCSVContent(DvlaPageObject.java:279)<br/>	at pageObject.DvlaPageObject.validateCarRegs(DvlaPageObject.java:89)<br/>	at pageObject.DvlaPageObject.getCarDetails(DvlaPageObject.java:74)<br/>	at pageDefinition.DvlaPageDev.the_car_registration_from_the_files_should_be_found(DvlaPageDev.java:45)<br/>	at ✽.Then The car registration from the "csv" files should be found(dvlaTest.feature:10)<br/></div></div></div>
+      
+            <div></div>
+      <div></div>
+        <div class="passed"><span class="step-keyword">After </span><i>DvlaPageDev.close()</i><span class="step-duration"></span></div>
+    <br>
+      <a href="dvlaTest-feature.html">View Feature File</a>
+    <div class="feature-tags"><a href="CheckCarReg.html">@CheckCarReg</a></div>
+    
+    <div class="passed"><span class="element-keyword">Scenario Outline: </span><span class="element-name">Search for car registration from &quot;xlsx&quot;</span></div>
+          <div class="passed"><span class="step-keyword">Given  </span><span class="step-name">I start the vehicle search process</span><span class="step-duration">14s 356ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="passed"><span class="step-keyword">When  </span><span class="step-name">I find existing &quot;xlsx&quot; files</span><span class="step-duration">013ms</span></div>
+      
+            <div></div>
+      <div></div>
+          <div class="passed"><span class="step-keyword">Then  </span><span class="step-name">The car registration from the &quot;xlsx&quot; files should be found</span><span class="step-duration">07s 048ms</span></div>
+      
+            <div></div>
+      <div></div>
+        <div class="passed"><span class="step-keyword">After </span><i>DvlaPageDev.close()</i><span class="step-duration"></span></div>
+    <br>
+  </div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+      <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+      <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Cucumber-JVM Reports</a>
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

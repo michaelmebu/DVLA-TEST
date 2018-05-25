@@ -1,0 +1,7 @@
+utilities\LogMessage.class
+test\AllTest.class
+utilities\ElementProcessor.class
+testHelpers\FileProcessor.class
+pageObject\DvlaPageObject.class
+pageDefinition\DvlaPageDev.class
+utilities\setUp.class

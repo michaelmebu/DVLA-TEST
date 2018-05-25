@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/test/resources/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/michael.umenyiora/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-api"/>
+			<attribute name="maven.version" value="3.11.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/michael.umenyiora/.m2/repository/com/microsoft/azure/azure-storage/6.1.0/azure-storage-6.1.0.jar" sourcepath="C:/Users/michael.umenyiora/.m2/repository/com/microsoft/azure/azure-storage/6.1.0/azure-storage-6.1.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.microsoft.azure"/>
+			<attribute name="maven.artifactId" value="azure-storage"/>
+			<attribute name="maven.version" value="6.1.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/michael.umenyiora/.m2/repository/org/eclipse/ecf/org.apache.log4j/1.2.15.v201012070815/org.apache.log4j-1.2.15.v201012070815.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.eclipse.ecf"/>
+			<attribute name="maven.artifactId" value="org.apache.log4j"/>
+			<attribute name="maven.version" value="1.2.15.v201012070815"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/michael.umenyiora/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-chrome-driver"/>
+			<attribute name="maven.version" value="3.11.0"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/michael.umenyiora/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-support"/>
+			<attribute name="maven.version" value="3.11.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/test/resources/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/cssparser-0.9.22.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/cucumber-core-1.2.4.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/cucumber-java-1.2.4.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/cucumber-junit-1.2.4.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/cucumber-testng-1.2.4.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/fillo-1.16.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/fillo-1.17.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/guava-21.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/htmlunit-2.26.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/htmlunit-core-js-2.26.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/htmlunit-driver-2.26.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/jcommander-1.27.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/jetty-client-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/jetty-http-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/jetty-io-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/jetty-util-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/jsch-0.1.54.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/neko-htmlunit-2.25.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/ojdbc7-12.1.0.2.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/ojdbc7.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/phantomjsdriver-1.4.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/poi-ooxml-3.9.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/poi-ooxml-schemas-3.9.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/selenium-api-3.4.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/selenium-chrome-driver-3.4.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/selenium-edge-driver-3.4.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/selenium-firefox-driver-3.4.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/selenium-firefox-driver-3.8.1.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/selenium-ie-driver-3.4.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/selenium-java-3.4.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/selenium-java-3.8.1.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/selenium-opera-driver-3.4.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/selenium-remote-driver-3.4.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/selenium-safari-driver-3.4.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/selenium-support-3.4.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/testng-6.8.21.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/websocket-api-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/websocket-client-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/websocket-common-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="src/test/resources/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/michael.umenyiora/.m2/repository/com/opencsv/opencsv/3.3/opencsv-3.3.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.opencsv"/>
+			<attribute name="maven.artifactId" value="opencsv"/>
+			<attribute name="maven.version" value="3.3"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
